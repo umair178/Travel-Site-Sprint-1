@@ -1,0 +1,112 @@
+*{
+    font-family: 'verdana';
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2{
+    font-size: 3.3333rem;
+    font-weight: 300;
+}
+h3{
+    font-size: 1.8333rem;
+    font-weight: 300;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 10;
+}
+.nav_list{
+    height: 3rem;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0rem;
+}
+.nav__button{
+    background-color: #FFFFFF;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    /*border-bottom:3px rgba(#db7a4e, #db7a4e, #db7a4e, 1);*/
+    border-bottom: 0px;
+}
+.nav__button:hover{
+    border-bottom:3px solid #db7a4e;
+}
+#leftmargin_auto{
+    margin-left: auto;
+}
+
+.nav_list:last-child{
+    margin-right: 5.7%;
+}
+.nav_list:first-child{
+    margin-left: 5.7%;
+    color: #335576;
+}
+.nav_list li{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.nav_list a{
+    text-decoration: none;
+    color: #393939;
+}
+#logo_color{
+    color: #335576;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer_container{
+    background-color: #fefaf5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+#footer_padding_left{
+    padding-left: 16.9%;
+}
+#footer_padding_right{
+    padding-right: 16.9%;
+}
+.footer__sub-block{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__sub-block1{
+    padding-right: 1.5rem;
+}
+.footer__title{
+    padding-bottom: 1rem;
+    color: #335576;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer__text{
+    color: #335576;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.footer__subtitle{
+    color: #db7a4e;
+    padding-bottom: 5%;
+    font-size: 0.6rem;
+}
+.footer__subtitle--sunday{
+    padding-bottom: 10%;
+}

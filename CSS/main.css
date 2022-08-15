@@ -1,0 +1,103 @@
+.main_container{
+    padding-top: 3rem;
+    background-color: #fefaf5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__block{
+    padding-left: 5.7rem;
+    padding-top: 6.1rem;
+    padding-bottom: 8.6rem;
+}
+.main__title{
+    color: #335576;
+    font-weight: bold;
+}
+.main__padding--bottom{
+    padding-bottom: 2.5rem;
+}
+.main__text{
+    font-size: 0.8rem;
+}
+.main__logo{
+    padding-right: 6%;
+}
+.main__button{
+    background-color: #db7a4a;
+    width: 30%;
+    border-radius: 100px;
+    border-style: none;
+    height: 2rem;
+}
+.button--anchor{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    font-size: 0.8rem;
+
+}
+.recommendations__container{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.recommendation__title{
+    padding-top: 2.7rem;
+    padding-left: 5.7rem;
+    padding-bottom: 1.9rem;
+    color: #335576;
+    text-decoration: none;
+    font-weight: bold;
+}
+.recommendation__content{
+    display: flex;
+    justify-content: space-between;
+}
+.recommendation__anchor{
+    text-decoration: none;
+}
+.recommendation__Hawaii{
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 14.1rem;
+    height: 21rem;
+    margin-left: 12.4rem;
+    margin-bottom: 4.5rem;
+    border: 1px solid rgba(0, black, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0red, 0, black, 0.2);
+}
+.recommendation__Iceland{
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 14.1rem;
+    height: 21rem;
+    margin-bottom: 4.5rem;
+    border: 1px solid rgba(0, black, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0red, 0, black, 0.2);
+}
+
+.recommendation__Greece{
+    background-image: url(../Assets/Images/greece.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 14.1rem;
+    height: 21rem;
+    margin-right: 12.4rem;
+    margin-bottom: 4.5rem;
+    border: 1px solid rgba(0, black, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0red, 0, black, 0.2);
+}
+.recommendation__text{
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 2rem;
+    padding-top: 19rem;
+    vertical-align: bottom;
+}
